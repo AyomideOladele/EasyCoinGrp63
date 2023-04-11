@@ -1,0 +1,23 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  background-image: linear-gradient(to right, #21D0B2, #1DCDFE);
+  padding: 1rem;
+}
+
+.easy-coin-logo {
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 2.7rem;
+  color: #1B3145;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 25px 0px 0px 10px;
+}

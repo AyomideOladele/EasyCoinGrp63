@@ -1,0 +1,5 @@
+/* Overrides html automatic sizing, allowing the application to be fullscreen */
+html, body {
+    margin: 0;
+    height: 100%;
+}
