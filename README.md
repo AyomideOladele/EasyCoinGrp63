@@ -5,7 +5,7 @@ For this project we have used React Native, JSX and CSS for styling.
 
 ## Installation
 1. Open terminal and navigate to project directory.
-2. Navigate to client directory: 'cd Client'
+2. Navigate to client directory: 'cd client'
 3. Install the required dependencies: 'npm i'
 
 ## Usage

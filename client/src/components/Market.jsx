@@ -24,7 +24,7 @@ const Market = () => {
   return (
     <div>
       <Header/>
-      <div className="cryptoHeader">
+      <div className="search-bar">
         <input
           type="text"
           placeholder="Search..."
@@ -33,7 +33,7 @@ const Market = () => {
           }}
         />
       </div>
-      <div className="coinDisplay">
+      <div className="coinPane">
         {searchedCoins.map((coin) => {
           return (
             <Coin

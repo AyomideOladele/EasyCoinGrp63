@@ -1,7 +1,7 @@
 // Import React library and necessary components/module
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import Image from "../../images/EasyCoinLogo.png";
+import EasyCoinLogo from "../../images/EasyCoinLogo.png";
 import Navbar from "./Navbar.jsx";
 import "./style/header.css"
 
@@ -10,7 +10,7 @@ function Header() {
   return (
     // Renders the header element with the EasyCoin logo, site name, and Navbar component
     <header>
-      <img src={Image} alt="Easy Coin Logo" id="easy-coin-logo" />
+      <img src={EasyCoinLogo} alt="Easy Coin Logo" id="easy-coin-logo" />
       <h1>EASYCOIN</h1>
       <Navbar/>
     </header>
