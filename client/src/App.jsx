@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Welcome from "./components/Welcome";
 import Market from "./components/Market";
+import Login from "./components/login";
 
 // Define the main App functional component
 const App = () => (
@@ -13,6 +14,8 @@ const App = () => (
       <Route path="/" element={[<Welcome />]} />
       {/* Define the market route with a Market component as the corresponding page */}
       <Route path="/market" element={<Market />} />
+
+      <Route path="/login" element={<Login />} />
     </Routes>
   </Router>
 );
