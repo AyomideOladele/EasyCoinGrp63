@@ -32,6 +32,7 @@
 
 .pane {
    background-color: #1B3145;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
    height: 130px;
    width: 200px;
    margin: 40px 0px 20px 120px;;
