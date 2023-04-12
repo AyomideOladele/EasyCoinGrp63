@@ -27,6 +27,11 @@
   margin-bottom: 1rem;
 }
 
+.registration label,
+.login label {
+  color: white;
+}
+
 .registration input,
 .login input {
   width: 95%;
@@ -36,6 +41,7 @@
   border-radius: 0.5rem;
   background-color: #1B3145;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .registration button,
