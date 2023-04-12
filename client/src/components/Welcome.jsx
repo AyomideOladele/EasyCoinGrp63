@@ -9,6 +9,7 @@ import BitcoinIcon from '../../images/bitcoin.png';
 import EthereumIcon from '../../images/ethereum.png';
 import MoreCurrenciesIcon from '../../images/cryptocurrencies.png';
 import Header from "./Header.jsx";
+import Transactions from "./Transactions.jsx";
 import "./style/welcome.css";
 
 
@@ -85,26 +86,9 @@ const Welcome = () => {
           </div>
         </div>
         <div className = "pane">
-        <label className="Exchange-label"> Exchange </label>
-          <div className="Exchange-pane">
-            <div className="VButtonLabel">
-              <button className="Button">
-                <img src={BitcoinIcon} alt="Bitcoin" />
-              </button>
-              <label className="ButtonLabel" > Bitcoin </label>
-            </div>
-            <div className="VButtonLabel">
-              <button className="Button">
-                <img src={EthereumIcon} alt="Etherium" />
-              </button>
-              <label className="ButtonLabel"> Etherium </label>
-            </div>
-            <div className="VButtonLabel">
-              <button className="Button">
-                <img src={MoreCurrenciesIcon} alt="More Currencies" />
-              </button>
-              <label className="ButtonLabel"> Market </label>
-            </div>
+        <label className="Transactions-label"> Transactions </label>
+          <div className="Transactions-pane">
+            <Transactions/>
           </div>
         </div>
       </div>

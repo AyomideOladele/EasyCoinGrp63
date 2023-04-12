@@ -37,18 +37,17 @@ const Transactions = () => {
 
   return (
     <div>
-      <div class="container">
+      <div class="transactions-container">
         {currentAccount ? (
-          <h3>
+          <h3 className="transactions-label">
             Latest Transactions
           </h3>
         ) : (
-          <h3>
+          <h3 className="transactions-label">
             Connect your account to see the latest transactions
           </h3>
         )}
-
-        <div>
+        <div className="transactions-log">
           {[...transactions].reverse().map((transaction, i) => (
             <TransactionsCard key={i} {...transaction} />
           ))}
