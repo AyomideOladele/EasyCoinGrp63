@@ -3,10 +3,10 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import Coin from "./Coin";
 import Header from "./Header.jsx";
-import "./style/market.css";
+import "./style/exchange.css";
 
 
-const Market = () => {
+const Exchange = () => {
   const [coinList, setCoinList] = useState([]);
   const [userInput, setUserInput] = useState("");
 
@@ -50,4 +50,4 @@ const Market = () => {
   );
 };
 
-export default Market;
+export default Exchange;

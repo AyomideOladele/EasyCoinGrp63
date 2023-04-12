@@ -1,13 +1,13 @@
-// Import React library, necessary components/modules, and style sheet
+// Import React library, necessary components, modules, and style sheet
 import { Link } from "react-router-dom";
 import "./style/navbar.css"
 
 const NavBarItem = ({ title }) => (
 
-  // Wrap the NavBarItem component for "Market" with a Link component
+  // Wrap the NavBarItem component for "Exchange" with a Link component
   <li>
-    {title === "Market" ? (
-      <Link to="/market">{title}</Link>
+    {title === "Exchange" ? (
+      <Link to="/exchange">{title}</Link>
     ) : (
       title
     )}
@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          {["Market"].map((item, index) => (
+          {["Exchange"].map((item, index) => (
             <NavBarItem
               key={item + index}
               title={item} />

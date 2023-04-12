@@ -1,8 +1,8 @@
 // Import React library and necessary components/module
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Welcome from "./components/Welcome";
-import Market from "./components/Market";
+import Home from "./components/Home";
 import Login from "./components/login";
+import Exchange from "./components/Exchange";
 
 // Define the main App functional component
 const App = () => (
@@ -13,9 +13,9 @@ const App = () => (
       {/* Define the root route with a Login component as the initial page */}
       <Route path="/" element={[<Login />]} />
       {/* Define the welcome route with a Welcome component as the corresponding page */}
-      <Route path="/welcome" element={<Welcome />} />
-      {/* Define the market route with a Market component as the corresponding page */}
-      <Route path="/market" element={<Market />} />
+      <Route path="/home" element={<Home />} />
+      {/* Define the exchange route with a Exchange component as the corresponding page */}
+      <Route path="/exchange" element={<Exchange />} />
     </Routes>
   </Router>
 );

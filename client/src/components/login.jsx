@@ -34,7 +34,7 @@ const login = () => {
       if (response.data.message){
         setLoginStatus(response.data.message)
       } else{
-        navigate('../welcome');
+        navigate('../Home');
       }
     });
 }

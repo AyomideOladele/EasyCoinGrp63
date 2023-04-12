@@ -10,7 +10,7 @@ import EthereumIcon from '../../images/ethereum.png';
 import MoreCurrenciesIcon from '../../images/cryptocurrencies.png';
 import Header from "./Header.jsx";
 import Transactions from "./Transactions.jsx";
-import "./style/welcome.css";
+import "./style/home.css";
 
 
 const Input = ({ placeholder, name, type, value, handleChange }) => (
@@ -23,7 +23,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
   />
 );
 
-const Welcome = () => {
+const Home = () => {
   const { currentAccount, connectWallet, handleChange, sendTransaction, formData, isLoading } = useContext(TransactionContext);
   const handleSubmit = (e) => {
     const { addressTo, amount, message } = formData;
@@ -96,4 +96,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default Home;
